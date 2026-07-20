@@ -1,0 +1,8 @@
+{
+  "name": "Reboot Code Academy",
+  "description": "Premium interactive website for Reboot Code Academy featuring course catalog, live demo bookings, WhatsApp chat integration, AI chatbot, and a full administration panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
