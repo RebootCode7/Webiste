@@ -1,0 +1,302 @@
+{
+  "categories": [
+    { "id": "java", "name": "Java Full Stack", "color": "emerald" },
+    { "id": "python", "name": "Python Full Stack", "color": "blue" },
+    { "id": "webdev", "name": "Web Development", "color": "sky" },
+    { "id": "dotnet", "name": ".NET Technology", "color": "orange" },
+    { "id": "ai", "name": "AI Technologies & Tools", "color": "pink" },
+    { "id": "cloud", "name": "Cloud Technology & DevOps", "color": "indigo" },
+    { "id": "servicenow", "name": "ServiceNow", "color": "teal" },
+    { "id": "testing", "name": "Testing Tools", "color": "red" },
+    { "id": "basic", "name": "Basic Technologies", "color": "cyan" },
+    { "id": "aptitude", "name": "Aptitude & English", "color": "rose" },
+    { "id": "banking", "name": "Banking Jobs Coaching", "color": "slate" },
+    { "id": "nonit", "name": "Non-IT Jobs Coaching", "color": "emerald" },
+    { "id": "careersupport", "name": "Career Support", "color": "rose" },
+    { "id": "industry", "name": "Industry Interactions", "color": "purple" },
+    { "id": "pbl", "name": "Project Based Learning", "color": "amber" }
+  ],
+  "courses": [
+    {
+      "id": "java-fs",
+      "name": "Java Full Stack Development",
+      "category": "Java Full Stack",
+      "description": "Master enterprise web application development with Core Java, Spring Boot, React, and MySQL database.",
+      "duration": "6 Months",
+      "mode": "Both",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=400",
+      "projects": "2 Projects",
+      "details": {
+        "frontend": ["HTML5, CSS3, JavaScript", "React JS / Angular JS", "Bootstrap & Tailwind CSS"],
+        "backend": ["Core Java & Advanced Java", "Spring Framework & Spring Boot", "RESTful Web Services & APIs"],
+        "database": ["MySQL Database", "Hibernate & Spring Data JPA", "Database Normalization & Queries"]
+      }
+    },
+    {
+      "id": "python-fs",
+      "name": "Python Full Stack Development",
+      "category": "Python Full Stack",
+      "description": "Learn rapid prototyping and modern dynamic backend development using Python, Django, DRF, and React.",
+      "duration": "6 Months",
+      "mode": "Both",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=400",
+      "projects": "2 Projects",
+      "details": {
+        "frontend": ["HTML5, CSS3, JavaScript", "React JS / Angular JS", "Tailwind CSS"],
+        "backend": ["Python Programming", "Django Web Framework", "Django REST Framework (DRF)", "FastAPI / Flask Overview"],
+        "database": ["MySQL Database", "SQLite (Development)", "ORM Queries & Migration"]
+      }
+    },
+    {
+      "id": "web-dev",
+      "name": "Modern Web Development",
+      "category": "Web Development",
+      "description": "Create spectacular responsive front-end user interfaces using HTML5, CSS3, Tailwind, JavaScript, and React.",
+      "duration": "3 Months",
+      "mode": "Both",
+      "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&q=80&w=400",
+      "projects": "1 Project",
+      "details": {
+        "frontend": ["HTML5 & Semantics", "CSS3 & Custom Transitions", "Tailwind CSS Layouts", "Modern ES6+ JavaScript", "React JS Components", "Angular JS & Vue JS Concepts"]
+      }
+    },
+    {
+      "id": "dotnet-tech",
+      "name": ".NET Technology Suite",
+      "category": ".NET Technology",
+      "description": "Build high-performance secure server systems with C#, ASP.NET Core, MVC, and Entity Framework.",
+      "duration": "4 Months",
+      "mode": "Both",
+      "image": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?auto=format&fit=crop&q=80&w=400",
+      "projects": "2 Projects",
+      "details": {
+        "frontend": ["HTML, CSS, JavaScript", "React JS integration"],
+        "backend": ["C# Programming", "ASP.NET Core Web APIs", "MVC Architecture", "Entity Framework Core"],
+        "database": ["Microsoft SQL Server", "LINQ Queries", "Stored Procedures"]
+      }
+    },
+    {
+      "id": "ai-ml",
+      "name": "AI & Machine Learning Suite",
+      "category": "AI Technologies & Tools",
+      "description": "Unlock artificial intelligence, deep learning, prompt engineering, and modern LLM API integration.",
+      "duration": "4 Months",
+      "mode": "Both",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&q=80&w=400",
+      "projects": "Live AI Demos",
+      "details": {
+        "frontend": ["Artificial Intelligence", "Data Science Foundations", "Machine Learning Algorithms"],
+        "backend": ["ChatGPT & Copilot Integration", "Prompt Engineering Frameworks", "Gemini AI & Claude API Pipelines"]
+      }
+    },
+    {
+      "id": "cloud-devops",
+      "name": "Cloud Computing & DevOps",
+      "category": "Cloud Technology & DevOps",
+      "description": "Deploy, scale, and orchestrate server architectures with AWS, Azure, CI/CD, and Docker.",
+      "duration": "3 Months",
+      "mode": "Both",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=400",
+      "projects": "1 Core Pipeline",
+      "details": {
+        "frontend": ["AWS (Amazon Web Services)", "Microsoft Azure Cloud Portal"],
+        "backend": ["DevOps Practices & Pipelines", "CI/CD (Jenkins, GitHub Actions)", "Docker & Kubernetes Orchestration", "Git & GitHub Version Control"]
+      }
+    },
+    {
+      "id": "servicenow-core",
+      "name": "ServiceNow Certification Course",
+      "category": "ServiceNow",
+      "description": "Gain highly valuable technical expertise in IT Service Management (ITSM) using ServiceNow.",
+      "duration": "3 Months",
+      "mode": "Both",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
+      "projects": "1 Custom Portal",
+      "details": {
+        "frontend": ["ServiceNow Administration", "ServiceNow Development Basics", "Service Desk Tool Configuration", "ITSM Fundamentals"]
+      }
+    },
+    {
+      "id": "testing-tools-suite",
+      "name": "Software Testing & Automation",
+      "category": "Testing Tools",
+      "description": "Verify code quality using standard manual techniques and Selenium automation testing pipelines.",
+      "duration": "3 Months",
+      "mode": "Both",
+      "image": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&q=80&w=400",
+      "projects": "2 Test Projects",
+      "details": {
+        "frontend": ["Manual Testing Fundamentals", "Selenium Automation Suite", "API Testing (Postman)", "JIRA Project Tracking", "Performance Testing (JMeter)"]
+      }
+    },
+    {
+      "id": "basic-tech",
+      "name": "Basic Technologies & IT Basics",
+      "category": "Basic Technologies",
+      "description": "Build standard computing literacy, high-speed touch typing, and core programming in C/C++.",
+      "duration": "2 Months",
+      "mode": "Both",
+      "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80&w=400",
+      "details": {
+        "frontend": ["MS Word & MS Excel & MS PowerPoint", "High-speed Typing Skills", "C & C++ Programming Languages"]
+      }
+    },
+    {
+      "id": "aptitude-english",
+      "name": "Aptitude & English Communication",
+      "category": "Aptitude & English",
+      "description": "Ace hiring interviews and competitive examinations with top logical, verbal, and soft skills.",
+      "duration": "2 Months",
+      "mode": "Both",
+      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=400",
+      "details": {
+        "frontend": ["Quantitative Aptitude (all topics)", "Logical Reasoning & Verbal Ability", "English Grammar & Fluency", "Speaking & Group Discussions"]
+      }
+    },
+    {
+      "id": "banking-coaching",
+      "name": "Banking Jobs Coaching",
+      "category": "Banking Jobs Coaching",
+      "description": "Intensive preparation program for SBI, IBPS, RRB, Clerk, and Probationary Officer examinations.",
+      "duration": "4 Months",
+      "mode": "Both",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=400",
+      "details": {
+        "frontend": ["SBI, IBPS, RRB Coaching", "Clerk & PO Syllabus", "Quantitative Aptitude drills", "Reasoning Ability mock papers", "English Section masterclass"]
+      }
+    },
+    {
+      "id": "non-it-coaching",
+      "name": "Non-IT Jobs Career Track",
+      "category": "Non-IT Jobs Coaching",
+      "description": "Accelerate job entry into fields like HR, Customer Success, and Sales with custom mentorship.",
+      "duration": "3 Months",
+      "mode": "Both",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=400",
+      "details": {
+        "frontend": ["Customer Support & BPO / KPO training", "HR Roles & Operations", "Sales & Marketing fundamentals", "20+ Direct Placement opportunities"]
+      }
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b1",
+      "fullName": "Sita Raman",
+      "phoneNumber": "9876543210",
+      "email": "sita.raman@gmail.com",
+      "college": "Bhimavaram Institute of Engineering",
+      "graduationYear": 2027,
+      "courseInterested": "Java Full Stack Development",
+      "preferredDate": "2026-07-20",
+      "preferredTimeSlot": "11:00 AM - 12:30 PM",
+      "mode": "Offline",
+      "message": "Interested in joining the offline classes. Please call me.",
+      "status": "Pending",
+      "createdAt": "2026-07-11T22:50:00.000Z"
+    },
+    {
+      "id": "b2",
+      "fullName": "Amit Sharma",
+      "phoneNumber": "9012345678",
+      "email": "amit.sharma@yahoo.com",
+      "college": "SRKR Engineering College",
+      "graduationYear": 2026,
+      "courseInterested": "Python Full Stack Development",
+      "preferredDate": "2026-07-15",
+      "preferredTimeSlot": "02:00 PM - 03:30 PM",
+      "mode": "Online",
+      "message": "Would like to attend online free demo. Thank you.",
+      "status": "Approved",
+      "createdAt": "2026-07-11T22:55:00.000Z"
+    }
+  ],
+  "slots": [
+    { "id": "1", "time": "09:00 AM - 10:30 AM", "capacity": 20, "bookedCount": 5 },
+    { "id": "2", "time": "11:00 AM - 12:30 PM", "capacity": 20, "bookedCount": 12 },
+    { "id": "3", "time": "02:00 PM - 03:30 PM", "capacity": 25, "bookedCount": 15 },
+    { "id": "4", "time": "04:00 PM - 05:30 PM", "capacity": 15, "bookedCount": 8 },
+    { "id": "5", "time": "06:00 PM - 07:30 PM", "capacity": 15, "bookedCount": 3 }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Sagar Kumar",
+      "course": "Web Development",
+      "review": "Reboot Code Academy completely transformed my career path. I joined as a non-IT graduate and today I am working as a Frontend Developer. The trainers are top-notch and placement support is real!",
+      "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=200"
+    },
+    {
+      "id": "2",
+      "name": "Pratyusha Reddy",
+      "course": "Java Full Stack Development",
+      "review": "The focus on real-time projects is what makes Reboot Code Academy unique. We built 2 full-scale projects, and the mock interviews prepared me perfectly to clear my multi-national company rounds on the first try.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
+    },
+    {
+      "id": "3",
+      "name": "Kiran Paul",
+      "course": "Python Full Stack Development",
+      "review": "I learned Django, REST Framework, and React. The class timings are flexible, and the mock tests were extremely useful. I highly recommend Reboot Code Academy to anyone looking for a solid programming foundation.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+    }
+  ],
+  "gallery": [
+    { "id": "1", "title": "Reboot Main Entrance", "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=800", "category": "Campus" },
+    { "id": "2", "title": "Interactive Theory Session", "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800", "category": "Classroom" },
+    { "id": "3", "title": "Coding & Development Labs", "image": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=800", "category": "Labs" },
+    { "id": "4", "title": "Campus Placement Drive", "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800", "category": "Events" }
+  ],
+  "faq": [
+    {
+      "id": "1",
+      "question": "Do you offer both online and offline classes?",
+      "answer": "Yes! Reboot Code Academy provides both offline classroom-based training at our Bhimavaram campus and highly interactive live online classes with industry expert trainers."
+    },
+    {
+      "id": "2",
+      "question": "Is there a placement assistance program?",
+      "answer": "Absolutely. We offer 100% placement assistance, which includes resume building, mock interviews, LinkedIn profiling, and organizing direct interviews with our hiring partner MNCs."
+    },
+    {
+      "id": "3",
+      "question": "Are there any prerequisites to join the Full Stack courses?",
+      "answer": "No prior coding experience is required! Our courses start from absolute basics (HTML/CSS, core logic) and gradually advance to enterprise development."
+    },
+    {
+      "id": "4",
+      "question": "Do we get hands-on practical experience?",
+      "answer": "Yes, all our programs are project-based. For example, in Java/Python Full Stack, you will build and deploy at least 2 complete live projects."
+    },
+    {
+      "id": "5",
+      "question": "Where is the academy located?",
+      "answer": "Our physical campus is located in Bhimavaram, Andhra Pradesh. It is equipped with advanced infrastructure, high-speed internet, and dedicated lab spaces."
+    }
+  ],
+  "settings": {
+    "whatsappNumber": "919059556216",
+    "phoneNumber": "+91 90595 56216",
+    "email": "rebootcode6@gmail.com",
+    "address": "Reboot Code Academy, Bhimavaram, Andhra Pradesh, India - 534201",
+    "googleMapsUrl": "https://maps.google.com/?q=Bhimavaram,+Andhra+Pradesh",
+    "socialLinks": {
+      "facebook": "https://facebook.com/rebootcodeacademy",
+      "instagram": "https://instagram.com/rebootcodeacademy",
+      "youtube": "https://youtube.com/rebootcodeacademy",
+      "linkedin": "https://linkedin.com/company/rebootcodeacademy"
+    }
+  },
+  "chatbotFaq": [
+    { "id": "1", "keywords": ["course", "courses", "syllabus", "what do you teach"], "question": "What courses are available?", "answer": "We offer Java Full Stack, Python Full Stack, Web Development, .NET, AI & Machine Learning, Cloud & DevOps, ServiceNow, and Testing Tools. All courses feature live hands-on projects!" },
+    { "id": "2", "keywords": ["placement", "job", "jobs", "hire", "salary"], "question": "Do you provide placements?", "answer": "Yes, we offer 100% placement assistance, including mock interviews, resume preparation, and direct interviews with tier-1 MNC hiring partners!" },
+    { "id": "3", "keywords": ["location", "address", "where", "bhimavaram"], "question": "Where are you located?", "answer": "We are located in Bhimavaram, Andhra Pradesh, India. We have a physical campus with premium labs, as well as live online classes." },
+    { "id": "4", "keywords": ["demo", "book", "class", "trial"], "question": "How do I book a demo?", "answer": "Simply click the 'Book Free Demo' button at the top of the page, fill in your details, select a course and slot, and submit! You will get an instant confirmation email." },
+    { "id": "5", "keywords": ["fees", "price", "cost", "charge"], "question": "What is the fee structure?", "answer": "We offer extremely affordable fees for all programs. Please click 'Book Free Demo' to speak with a counselor who can guide you on flexible payment and installment options." },
+    { "id": "6", "keywords": ["contact", "phone", "whatsapp", "call"], "question": "How can I contact you?", "answer": "You can call us at +91 90595 56216 or click the WhatsApp button in the corner to chat with our admissions team instantly!" }
+  ],
+  "banner": {
+    "title": "Your Reboot to a Successful Career",
+    "subtitle": "Learn • Build • Practice • Get Hired",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1200"
+  }
+}
